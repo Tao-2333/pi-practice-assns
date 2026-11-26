@@ -5,14 +5,14 @@
 本地仓库的 origin 指向 [hunnuOpenSourceSoftware2026Group001/pi-hunnu-2026](https://github.com/hunnuOpenSourceSoftware2026Group001/pi-hunnu-2026)。课程源仓库为 [hunnuOpenSourceSoftware2026/pi-hunnu-2026](https://github.com/hunnuOpenSourceSoftware2026/pi-hunnu-2026)。Fork 来源以组织仓库首页的 “forked from” 信息为准。
 
 > **截图位置 ①｜组织仓库**  
-> ![alt text](image.png)。
+> ![alt text](assets/02-Pi-Agent-fork/image.png)。
 
 ## 任务二 · 本地源码与版本
 
 | 核对项 | 本地记录 |
 |---|---|
 | 源码目录 | `D:\桌面\doc\openSource\pi-hunnu-2026` |
-| Clone 地址（Issue 中填写此 URL） | https://github.com/hunnuOpenSourceSoftware2026Group001/pi-hunnu-2026.git |
+| Clone 地址 | https://github.com/hunnuOpenSourceSoftware2026Group001/pi-hunnu-2026.git |
 | 当前分支 | `main` |
 | 完整提交编号 | `c3cc91632d0a1950fb122605b190233f2aa0006e` |
 | 工作区状态 | 核对时 `git status --short` 显示 `?? report/`，表示报告目录尚未被 Git 跟踪。 |
@@ -26,10 +26,10 @@ git status --short
 ```
 
 > **截图位置 ②｜S1 本地仓库信息**  
-> ![alt text](image-1.png)。
+> ![alt text](assets/02-Pi-Agent-fork/image-1.png)。
 
 > **截图位置 ③｜源码目录**  
-> ![alt text](image-2.png)夹。
+> ![alt text](assets/02-Pi-Agent-fork/image-2.png)。
 
 ## 任务三 · 子模块功能与依赖关系
 
@@ -59,7 +59,7 @@ git status --short
 
 ### 模块层级与依赖图
 
-![alt text](module-dependencies.png)
+![alt text](assets/02-Pi-Agent-fork/module-dependencies.png)
 
 箭头由使用方指向被依赖方。图中的 18 条边均来自各包 dependencies，未计入开发依赖和可选依赖。
 
